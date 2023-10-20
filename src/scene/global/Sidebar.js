@@ -1,5 +1,12 @@
 import React from "react";
 import { BiGridAlt } from "react-icons/bi";
+import {
+  MdInsertChartOutlined,
+  MdOutlineCases,
+  MdOutlineGroup,
+  MdOutlineReceipt,
+  MdOutlineReceiptLong,
+} from "react-icons/md";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
@@ -50,14 +57,17 @@ const Sidebar = ({ isSidebarOpen, onClose }) => {
 
         <Link
           to="/dashboard"
-          className={`w-full border-r-[2px] border-r-[#8CC7FF] py-[13px] pl-[17px] pr-[77px] flex tracking-[0.2px] gap-[12px] font-medium text-[14px] leading-[21px] items-end mb-[12px] ${
+          className={`w-full   py-[13px] pl-[17px] pr-[77px] flex tracking-[0.2px] gap-[12px] font-medium text-[14px] leading-[21px] items-end mb-[12px] ${
             window.location.pathname === "/dashboard"
-              ? "bg-[#124072] text-[white] rounded-xl"
+              ? "  text-[#002240] border-r-[#8CC7FF] border-r-[2px]"
               : "text-[#718096]"
           }`}
         >
           <div className="flex items-center gap-[4px]">
             <svg
+              className={`${
+                window.location.pathname === "/dashboard" ? "block" : "hidden"
+              }`}
               width="8"
               height="8"
               viewBox="0 0 8 8"
@@ -68,8 +78,184 @@ const Sidebar = ({ isSidebarOpen, onClose }) => {
             </svg>
             <BiGridAlt className="text-[24px] " />
           </div>
-          <div className="relative"><div className="h-[7px] bg-[#8CC7FF] opacity-[33%] w-[70%] bottom-1 -z-10 absolute"></div>Dashboard</div>
-          
+          <div className="relative">
+            <div
+              className={`${
+                window.location.pathname === "/dashboard" ? "block" : "hidden"
+              } h-[7px] bg-[#8CC7FF] opacity-[33%] w-[70%] bottom-1 -z-10 absolute`}
+            ></div>{" "}
+            Dashboard
+          </div>
+        </Link>
+        <Link
+          to="/charges"
+          className={`w-full   py-[13px] pl-[17px] pr-[77px] flex tracking-[0.2px] gap-[12px] font-medium text-[14px] leading-[21px] items-end mb-[12px] ${
+            window.location.pathname === "/charges"
+              ? "  text-[#002240] border-r-[#8CC7FF] border-r-[2px]"
+              : "text-[#718096]"
+          }`}
+        >
+          <div className="flex items-center gap-[4px]">
+            <svg
+            className={`${
+              window.location.pathname === "/charges" ? "block" : "hidden"
+            }`}
+              width="8"
+              height="8"
+              viewBox="0 0 8 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="4" cy="4" r="4" fill="#0E82F0" />
+            </svg>
+            <MdOutlineReceipt className="text-[24px] " />
+          </div>
+          <div className="relative">
+            <div
+              className={`${
+                window.location.pathname === "/charges" ? "block" : "hidden"
+              } h-[7px] bg-[#8CC7FF] opacity-[33%] w-[70%] bottom-1 -z-10 absolute`}
+            ></div>
+            <p className="whitespace-nowrap">Fees and Charges</p>
+          </div>
+        </Link>
+        <Link
+          to="/billspayment"
+          className={`w-full py-[13px] pl-[17px] pr-[77px] flex tracking-[0.2px] gap-[12px] font-medium text-[14px] leading-[21px] items-end mb-[12px] ${
+            window.location.pathname === "/billspayment"
+              ? "  text-[#002240] border-r-[#8CC7FF] border-r-[2px]"
+              : "text-[#718096]"
+          }`}
+        >
+          <div className="flex items-center gap-[4px]">
+            <svg
+              className={`${
+                window.location.pathname === "/billspayment"
+                  ? "block"
+                  : "hidden"
+              }`}
+              width="8"
+              height="8"
+              viewBox="0 0 8 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="4" cy="4" r="4" fill="#0E82F0" />
+            </svg>
+            <MdOutlineGroup className="text-[24px] " />
+          </div>
+          <div className="relative">
+            <div
+              className={`${
+                window.location.pathname === "/billspayment"
+                  ? "block"
+                  : "hidden"
+              } h-[7px] bg-[#8CC7FF] opacity-[33%] w-[70%] bottom-1 -z-10 absolute`}
+            ></div>
+            <p className="whitespace-nowrap">Bills Payment</p>
+          </div>
+        </Link>
+        <Link
+          to="/topup"
+          className={`w-full  py-[13px] pl-[17px] pr-[77px] flex tracking-[0.2px] gap-[12px] font-medium text-[14px] leading-[21px] items-end mb-[12px] ${
+            window.location.pathname === "/topup"
+              ? "  text-[#002240] border-r-[#8CC7FF] border-r-[2px]"
+              : "text-[#718096]"
+          }`}
+        >
+          <div className="flex items-center gap-[4px]">
+            <svg
+              className={`${
+                window.location.pathname === "/topup"
+                  ? "block"
+                  : "hidden"
+              }`}
+              width="8"
+              height="8"
+              viewBox="0 0 8 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="4" cy="4" r="4" fill="#0E82F0" />
+            </svg>
+            <MdOutlineCases className="text-[24px] " />
+          </div>
+          <div className="relative">
+            <div
+              className={`${
+                window.location.pathname === "/topup" ? "block" : "hidden"
+              } h-[7px] bg-[#8CC7FF] opacity-[33%] w-[70%] bottom-1 -z-10 absolute`}
+            ></div>
+            <p className="whitespace-nowrap">Mobile Top-up</p>
+          </div>
+        </Link>
+        <Link
+          to="/usermanagement"
+          className={`w-full  py-[13px] pl-[17px] pr-[77px] flex tracking-[0.2px] gap-[12px] font-medium text-[14px] leading-[21px] items-end mb-[12px] ${
+            window.location.pathname === "/usermanagement"
+              ? "  text-[#002240] border-r-[#8CC7FF] border-r-[2px]"
+              : "text-[#718096]"
+          }`}
+        >
+          <div className="flex items-center gap-[4px]">
+            <svg
+              className={`${
+                window.location.pathname === "/usermanagement"
+                  ? "block"
+                  : "hidden"
+              }`}
+              width="8"
+              height="8"
+              viewBox="0 0 8 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="4" cy="4" r="4" fill="#0E82F0" />
+            </svg>
+            <MdOutlineReceiptLong className="text-[24px] " />
+          </div>
+          <div className="relative">
+            <div
+              className={`${
+                window.location.pathname === "/usermanagement"
+                  ? "block"
+                  : "hidden"
+              } h-[7px] bg-[#8CC7FF] opacity-[33%] w-[70%] bottom-1 -z-10 absolute`}
+            ></div>
+            <p className="whitespace-nowrap">User Management</p>
+          </div>
+        </Link>
+        <Link
+          to="/invoice"
+          className={`w-full py-[13px] pl-[17px] pr-[77px] flex tracking-[0.2px] gap-[12px] font-medium text-[14px] leading-[21px] items-end mb-[12px] ${
+            window.location.pathname === "/invoice"
+              ? "  text-[#002240] border-r-[#8CC7FF] border-r-[2px] "
+              : "text-[#718096]"
+          }`}
+        >
+          <div className="flex items-center gap-[4px]">
+            <svg
+              className={`${
+                window.location.pathname === "/invoice" ? "block" : "hidden"
+              }`}
+              width="8"
+              height="8"
+              viewBox="0 0 8 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="4" cy="4" r="4" fill="#0E82F0" />
+            </svg>
+            <MdInsertChartOutlined className="text-[24px] " />
+          </div>
+          <div className="relative">
+            <div
+              className={`${
+                window.location.pathname === "/invoice" ? "block" : "hidden"
+              } h-[7px] bg-[#8CC7FF] opacity-[33%] w-[70%] bottom-1 -z-10 absolute`}
+            ></div>{" "}
+            <p className="whitespace-nowrap">Invoice</p>
+          </div>
         </Link>
       </div>
     </div>

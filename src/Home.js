@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div id="popup-root" className="app bg-[#ffffff] flex ">
       <Sidebar isSidebarOpen={isSidebar} onClose={handleSideBarClose} />
-      <main className="bg-[#FDFBE4] w-full overflow-x-hidden">
+      <main className="bg-[#fff] w-full overflow-x-hidden">
         <Topbar setIsSidebar={toggleSidebar} />
         <Outlet />
       </main>

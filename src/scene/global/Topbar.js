@@ -17,7 +17,7 @@ const Topbar = ({ setIsSidebar, userData }) => {
   };
 
   return (
-    <div className="flex w-full items-center justify-between px-6 gap-[16px] pt-6">
+    <div className="flex w-full items-center justify-between px-6 gap-[16px] pt-6 pb-4 border-b ">
       <div className="flex items-center">
         <button
           class="h-12 w-12 bg-[#FAFAFA] px-3 py-3 rounded-full lg:hidden mr-2"
@@ -53,19 +53,19 @@ const Topbar = ({ setIsSidebar, userData }) => {
             />
           </svg>
         </button>
-        <h4 className="text-[24px] text-[#1a202c] font-bold hidden md:block">
+        <h4 className="text-[22px] text-[#164C77] font-bold block">
           {location.pathname === "/dashboard"
             ? "Dashboard"
-            : location.pathname === "/transaction"
-            ? "Transactions"
-            : location.pathname === "/settlement"
-            ? "Settlements"
-            : location.pathname === "/bank"
-            ? "Bank"
-            : location.pathname === "/channel"
-            ? "Channel"
-            : location.pathname === "/wallet"
-            ? "Wallet"
+            : location.pathname === "/charges"
+            ? "Fees and Charges"
+            : location.pathname === "/billspayment"
+            ? "Bills Payment"
+            : location.pathname === "/topup"
+            ? "Mobile Top-UP"
+            : location.pathname === "/usermanagement"
+            ? "User Management"
+            : location.pathname === "/invoice"
+            ? "Invoice"
             : location.pathname === "/country"
             ? "Country"
             : location.pathname === "/merchant"
@@ -89,7 +89,7 @@ const Topbar = ({ setIsSidebar, userData }) => {
       </div>
       <div className="flex flex-row gap-3">
         <div className="flex  gap-[12px] p-[8px] bg-gray-100/50  items-center rounded-[18px]">
-          <div class="bg-[#FAFAFA] rounded-full h-[48px] w-[48px] px-3 py-3 hidden lg:block ">
+          <div class="bg-[#FAFAFA] rounded-full   hidden lg:block ">
             <svg
               width="28"
               height="28"

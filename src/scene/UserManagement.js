@@ -5,7 +5,7 @@ import { GoPerson } from "react-icons/go";
 
 const UserManagement = () => {
   return (
-    <div className="mt-2  mx-6">
+    <div className="py-[55px] mx-6">
       {/* search and filter button */}
       <div className="lg:flex lg:justify-between items-center mb-8 ">
         <div className="relative py-4   w-full flex gap-3 ">

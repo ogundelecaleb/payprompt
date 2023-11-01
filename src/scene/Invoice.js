@@ -5,7 +5,7 @@ import { IoIosAdd } from "react-icons/io";
 
 const Invoice = () => {
   return (
-    <div className="mt-2  mx-6">
+    <div className="py-[55px]  mx-6">
       {/* search and filter button */}
       <div className="lg:flex lg:justify-between items-center mb-8 ">
         <div className="">
@@ -44,9 +44,10 @@ const Invoice = () => {
             />
           </div>
         </div>
-        <div className="flex items-center">
+        <div className="flex gap-2 items-center ">
           <div>
             <svg
+            className="cursor-pointer"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="28"
@@ -61,14 +62,14 @@ const Invoice = () => {
           </div>
           <button
             // onClick={handleDisplaySearch}
-            className={`px-4 py-4 border border-[#28B446] text-[#28B446] text-[14px] leading-[21px] tracking-[0.2px] h-[48px] font-semibold rounded-xl flex items-center gap-2 mr-4 `}
+            className={`px-4 py-2 border border-[#28B446] text-[#28B446] text-[14px] leading-[21px] tracking-[0.2px]  font-medium rounded-[6px] flex items-center gap-2  `}
           >
            <img src="/image/excel.png" alt="Excel Icon" className="h-[24px] w-[24px] "/>
             Excel Export
           </button>
           <button
             // onClick={handleModalOpen}
-            className="px-4 py-4 border border-[#D80027]  text-[#D80027] text-[14px] leading-[21px] tracking-[0.2px] h-[48px] font-semibold rounded-xl flex items-center "
+            className="px-4 py-2 border border-[#D80027]  text-[#D80027] text-[14px] leading-[21px] tracking-[0.2px]  font-medium rounded-[6px] flex items-center "
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +89,7 @@ const Invoice = () => {
           </button>
           <button
             // onClick={handleModalOpen}
-            className="px-4 py-4 border  bg-[#0E82F0]  text-[white] text-[14px] leading-[21px] tracking-[0.2px] h-[48px] font-semibold rounded-xl flex items-center "
+            className="px-4 py-[8px] border  bg-[#0E82F0]  text-[white] text-[14px] leading-[21px] tracking-[0.2px]  font-medium rounded-[6px] flex items-center "
           >
            
            <IoIosAdd className="text-white text-[24px]" color="#fff"/>

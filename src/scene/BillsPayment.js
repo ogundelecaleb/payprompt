@@ -4,7 +4,7 @@ import { FiAlertCircle } from "react-icons/fi";
 
 const BillsPayment = () => {
   return (
-    <div className="mt-2  mx-6">
+    <div className="py-[55px]  mx-6">
       {/* search and filter button */}
       <div className="lg:flex lg:justify-between items-center mb-8 ">
         <div className="relative py-4   w-full flex gap-3 ">
@@ -98,38 +98,38 @@ const BillsPayment = () => {
 
       {/* table */}
 
-      <div class="flex flex-col overflow-x-auto">
+      <div class="flex flex-col overflow-x-auto p-3 border rounded-lg">
         <div class="sm:-mx-6 lg:-mx-8">
           <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
             <div class="overflow-x-auto">
               <table className="min-w-full mb-6 table-fixed">
-                <thead className="bg-[#F7F7F7]">
+                <thead className="">
                   <tr className="mb-2">
-                    <th className="whitespace-nowrap pr-5 py-[18px] border-t border-[#EDF2F7] text-[14px] leading-[21px] tracking-[0.3px] text-[#1A202C] font-medium text-left  ">
+                    <th className="whitespace-nowrap pr-5 py-[14px]  border-[#EDF2F7] text-[14px] leading-[21px] tracking-[0.3px] text-[#1A202C] font-medium text-left  ">
                       TRX
                     </th>
-                    <th className="whitespace-nowrap pr-5 py-[18px] border-t border-[#EDF2F7] text-[14px] leading-[21px] tracking-[0.3px] text-[#1A202C] font-medium text-left  ">
+                    <th className="whitespace-nowrap pr-5 py-[14px] border-[#EDF2F7] text-[14px] leading-[21px] tracking-[0.3px] text-[#1A202C] font-medium text-left  ">
                       FULL NAME
                     </th>
-                    <th className="whitespace-nowrap pr-5 py-[18px] border-t border-[#EDF2F7] text-[14px] leading-[21px] tracking-[0.3px] text-[#1A202C] font-medium text-left  ">
+                    <th className="whitespace-nowrap pr-5 py-[14px] border-[#EDF2F7] text-[14px] leading-[21px] tracking-[0.3px] text-[#1A202C] font-medium text-left  ">
                       USER TYPE
                     </th>
-                    <th className="whitespace-nowrap pr-5 py-[18px] border-t border-[#EDF2F7] text-[14px] leading-[21px] tracking-[0.3px] text-[#1A202C] font-medium text-left  ">
+                    <th className="whitespace-nowrap pr-5 py-[14px]  border-[#EDF2F7] text-[14px] leading-[21px] tracking-[0.3px] text-[#1A202C] font-medium text-left  ">
                       BILL TYPE
                     </th>
-                    <th className="whitespace-nowrap pr-5 py-[18px] border-t border-[#EDF2F7] text-[14px] leading-[21px] tracking-[0.3px] text-[#1A202C] font-medium text-left  ">
+                    <th className="whitespace-nowrap pr-5 py-[14px] border-[#EDF2F7] text-[14px] leading-[21px] tracking-[0.3px] text-[#1A202C] font-medium text-left  ">
                       BILL NUMBER
                     </th>
-                    <th className="whitespace-nowrap pr-5 py-[18px] border-t border-[#EDF2F7] text-[14px] leading-[21px] tracking-[0.3px] text-[#1A202C] font-medium text-left  ">
+                    <th className="whitespace-nowrap pr-5 py-[14px] border-[#EDF2F7] text-[14px] leading-[21px] tracking-[0.3px] text-[#1A202C] font-medium text-left  ">
                       BILL AMOUNT
                     </th>
-                    <th className="whitespace-nowrap pr-5 py-[18px] border-t border-[#EDF2F7] text-[14px] leading-[21px] tracking-[0.3px] text-[#1A202C] font-medium text-left  ">
+                    <th className="whitespace-nowrap pr-5 py-[14px]  border-[#EDF2F7] text-[14px] leading-[21px] tracking-[0.3px] text-[#1A202C] font-medium text-left  ">
                       STATUS
                     </th>
-                    <th className="whitespace-nowrap pr-5 py-[18px] border-t border-[#EDF2F7] text-[14px] leading-[21px] tracking-[0.3px] text-[#1A202C] font-medium text-left  ">
+                    <th className="whitespace-nowrap pr-5 py-[14px]  border-[#EDF2F7] text-[14px] leading-[21px] tracking-[0.3px] text-[#1A202C] font-medium text-left  ">
                       TIME
                     </th>
-                    <th className="whitespace-nowrap pr-5 py-[18px] border-t border-[#EDF2F7] text-[14px] leading-[21px] tracking-[0.3px] text-[#1A202C] font-medium text-left  ">
+                    <th className="whitespace-nowrap pr-5 py-[14px]  border-[#EDF2F7] text-[14px] leading-[21px] tracking-[0.3px] text-[#1A202C] font-medium text-left  ">
                       ACTION
                     </th>
                   </tr>
@@ -146,7 +146,7 @@ const BillsPayment = () => {
                       User{" "}
                     </td>
                     <td className=" py-[10px] whitespace-nowrap pr-5 border-t border-[#EDF2F7] text-[14px] leading-[24px]  text-[#1A202C] font-medium text-left  ">
-                      ELECTRICITY
+                      Electricity
                     </td>
                     <td className=" py-[10px] whitespace-nowrap pr-5 border-t border-[#EDF2F7] text-[14px] leading-[24px]  text-[#1A202C] font-medium text-left  ">
                       785639462048{" "}

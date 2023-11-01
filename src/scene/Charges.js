@@ -4,7 +4,7 @@ const Charges = () => {
   return (
     <>
       {/* first  */}
-      <div className="pt-[48px] px-[24px] md:pt-[56px] md:px-[36px]  lg:pt-[73px]  lg:px-[48px] relative">
+      <div className="mt-2 py-[55px] mx-6">
         <p className="text-[#1A202C] text-[16px] mb-[24px] font-bold ">Transfer Money Charges</p>
 
         
@@ -22,7 +22,7 @@ const Charges = () => {
                       <input
                         type="text"
                         placeholder="1"
-                        className="w-full  rounded-tl-lg rounded-bl-lg bg-white font-bold px-3 py-1 h-[38px]"
+                        className="w-full rounded-tl-lg rounded-bl-lg bg-white  px-3 py-1 h-[38px] focus:outline-0"
                       />
                       <button className="min-w-[50px] h-[38px] bg-[#0092FF] text-white py-1 rounded-tr-lg rounded-br-lg ">
                         NGN
@@ -36,7 +36,7 @@ const Charges = () => {
                       <input
                         type="text"
                         placeholder="1"
-                        className="w-full rounded-tl-lg rounded-bl-lg bg-white font-bold px-3 py-1 h-[38px]"
+                        className="w-full rounded-tl-lg rounded-bl-lg bg-white  px-3 py-1 h-[38px] focus:outline-0"
                       />
                       <button className="min-w-[50px] h-[38px] bg-[#0092FF] text-white py-1 rounded-tr-lg rounded-br-lg ">
                         %
@@ -59,7 +59,7 @@ const Charges = () => {
                       <input
                         type="text"
                         placeholder="1"
-                        className="w-full  rounded-tl-lg rounded-bl-lg bg-white font-bold px-3 py-1 h-[38px]"
+                        className="w-full rounded-tl-lg rounded-bl-lg bg-white  px-3 py-1 h-[38px] focus:outline-0"
                       />
                       <button className="min-w-[50px] h-[38px] bg-[#0092FF] text-white py-1 rounded-tr-lg rounded-br-lg ">
                         NGN
@@ -73,7 +73,7 @@ const Charges = () => {
                       <input
                         type="text"
                         placeholder="1"
-                        className="w-full rounded-tl-lg rounded-bl-lg bg-white font-bold px-3 py-1 h-[38px]"
+                        className="w-full rounded-tl-lg rounded-bl-lg bg-white  px-3 py-1 h-[38px] focus:outline-0"
                       />
                       <button className="min-w-[50px] h-[38px] bg-[#0092FF] text-white py-1 rounded-tr-lg rounded-br-lg ">
                         %
@@ -85,7 +85,7 @@ const Charges = () => {
             </div>
           </div>
         </div>
-        <button className=" bg-[#0092FF] text-white py-1 w-full rounded-lg font-bold">
+        <button className=" bg-[#0092FF] text-white py-4 w-full rounded-lg font-bold">
           Update
         </button>
       </div>
@@ -108,7 +108,7 @@ const Charges = () => {
                       <input
                         type="text"
                         placeholder="1"
-                        className="w-full  rounded-tl-lg rounded-bl-lg bg-white font-bold px-3 py-1 h-[38px]"
+                        className="w-full rounded-tl-lg rounded-bl-lg bg-white  px-3 py-1 h-[38px] focus:outline-0"
                       />
                       <button className="min-w-[50px] h-[38px] bg-[#0092FF] text-white py-1 rounded-tr-lg rounded-br-lg ">
                         NGN
@@ -122,7 +122,7 @@ const Charges = () => {
                       <input
                         type="text"
                         placeholder="1"
-                        className="w-full rounded-tl-lg rounded-bl-lg bg-white font-bold px-3 py-1 h-[38px]"
+                        className="w-full rounded-tl-lg rounded-bl-lg bg-white  px-3 py-1 h-[38px] focus:outline-0"
                       />
                       <button className="min-w-[50px] h-[38px] bg-[#0092FF] text-white py-1 rounded-tr-lg rounded-br-lg ">
                         %
@@ -145,7 +145,7 @@ const Charges = () => {
                       <input
                         type="text"
                         placeholder="1"
-                        className="w-full  rounded-tl-lg rounded-bl-lg bg-white font-bold px-3 py-1 h-[38px]"
+                        className="w-full rounded-tl-lg rounded-bl-lg bg-white  px-3 py-1 h-[38px] focus:outline-0"
                       />
                       <button className="min-w-[50px] h-[38px] bg-[#0092FF] text-white py-1 rounded-tr-lg rounded-br-lg ">
                         NGN
@@ -159,7 +159,7 @@ const Charges = () => {
                       <input
                         type="text"
                         placeholder="1"
-                        className="w-full rounded-tl-lg rounded-bl-lg bg-white font-bold px-3 py-1 h-[38px]"
+                        className="w-full rounded-tl-lg rounded-bl-lg bg-white  px-3 py-1 h-[38px] focus:outline-0"
                       />
                       <button className="min-w-[50px] h-[38px] bg-[#0092FF] text-white py-1 rounded-tr-lg rounded-br-lg ">
                         %
@@ -171,7 +171,7 @@ const Charges = () => {
             </div>
           </div>
         </div>
-        <button className=" bg-[#0092FF] text-white py-1 w-full rounded-lg font-bold">
+        <button className=" bg-[#0092FF] text-white py-4 w-full rounded-lg font-bold">
           Update
         </button>
       </div>
@@ -194,7 +194,7 @@ const Charges = () => {
                       <input
                         type="text"
                         placeholder="1"
-                        className="w-full  rounded-tl-lg rounded-bl-lg bg-white font-bold px-3 py-1 h-[38px]"
+                        className="w-full rounded-tl-lg rounded-bl-lg bg-white  px-3 py-1 h-[38px] focus:outline-0"
                       />
                       <button className="min-w-[50px] h-[38px] bg-[#0092FF] text-white py-1 rounded-tr-lg rounded-br-lg ">
                         NGN
@@ -208,7 +208,7 @@ const Charges = () => {
                       <input
                         type="text"
                         placeholder="1"
-                        className="w-full rounded-tl-lg rounded-bl-lg bg-white font-bold px-3 py-1 h-[38px]"
+                        className="w-full rounded-tl-lg rounded-bl-lg bg-white  px-3 py-1 h-[38px] focus:outline-0"
                       />
                       <button className="min-w-[50px] h-[38px] bg-[#0092FF] text-white py-1 rounded-tr-lg rounded-br-lg ">
                         %
@@ -231,7 +231,7 @@ const Charges = () => {
                       <input
                         type="text"
                         placeholder="1"
-                        className="w-full  rounded-tl-lg rounded-bl-lg bg-white font-bold px-3 py-1 h-[38px]"
+                        className="w-full rounded-tl-lg rounded-bl-lg bg-white  px-3 py-1 h-[38px] focus:outline-0"
                       />
                       <button className="min-w-[50px] h-[38px] bg-[#0092FF] text-white py-1 rounded-tr-lg rounded-br-lg ">
                         NGN
@@ -245,7 +245,7 @@ const Charges = () => {
                       <input
                         type="text"
                         placeholder="1"
-                        className="w-full rounded-tl-lg rounded-bl-lg bg-white font-bold px-3 py-1 h-[38px]"
+                        className="w-full rounded-tl-lg rounded-bl-lg bg-white  px-3 py-1 h-[38px] focus:outline-0"
                       />
                       <button className="min-w-[50px] h-[38px] bg-[#0092FF] text-white py-1 rounded-tr-lg rounded-br-lg ">
                         %
@@ -257,7 +257,7 @@ const Charges = () => {
             </div>
           </div>
         </div>
-        <button className=" bg-[#0092FF] text-white py-1 w-full rounded-lg font-bold">
+        <button className=" bg-[#0092FF] text-white py-4 w-full rounded-lg font-bold">
           Update
         </button>
       </div>
